@@ -223,6 +223,7 @@ def main(genomes,config):
                 bird.jump()
         rem = []
         add_pipe = False
+        
         for pipe in pipes:
             for x,bird in enumerate(birds):
                if pipe.collide(bird):
